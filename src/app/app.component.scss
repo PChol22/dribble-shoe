@@ -1,5 +1,5 @@
 
-h1 {
+.title {
   font-weight: 100;
   font-size: 70px;
   margin-top: 142px;
@@ -51,20 +51,17 @@ button {
   }
 }
 
-img {
+.main-article {
   margin-right: 214px;
   margin-top: 89px;
 }
 
-.dotted-line {
-  height: 0px;
-  width: 650px;
-  border-top: 6px dotted #FFFFFF;
-  position: absolute;
-  transform: translate(25px, 42px);
-  z-index: -1;
-}
-
 .item {
   cursor: pointer;
+}
+
+.shadow {
+  position: absolute;
+  transform: translateY(300px);
+  z-index: -1;
 }

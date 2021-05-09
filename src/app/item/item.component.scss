@@ -20,7 +20,6 @@
   height: 105px;
   width: 330px;
   border-radius: 25px;
-  text-align: center;
   position: absolute;
   transform: translateX(30px);
   z-index: -1;
@@ -31,9 +30,24 @@ p {
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
+  margin-left: 90px;
 }
 
 b {
   font-size: 24px;
   font-weight: 600;
+}
+
+.dotted-line {
+  height: 0px;
+  border-top: 6px dotted #FFFFFF;
+  position: absolute;
+  z-index: -1;
+}
+
+.plus {
+  cursor: pointer;
+  position: relative;
+  left: 295px;
+  bottom: 35px;
 }

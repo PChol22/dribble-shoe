@@ -1,9 +1,14 @@
 <div class="item-container" [ngStyle]="{ 'margin-right': selected ? '344px' : '80px'}">
+  <div class="dotted-line" *ngIf="!last" [ngStyle]="{
+    'width': selected ? '438px' : '175px',
+    'transform': selected ? 'translate(219px, 26px)' : 'translate(87px, 26px)'
+  }"></div>
   <div class="dot" [ngStyle]="{ 'background-color': color }"></div>
   <div class="content">
     <div *ngIf="selected" class="detail">
       <p>Mauris porta<br><b>$322.99</b></p>
-      </div>
-    <img [src]="imgUrl" alt="">
+      <img class="plus" src="assets/images/plus.png">
+    </div>
+    <img [src]="imgUrl">
   </div>
 </div>

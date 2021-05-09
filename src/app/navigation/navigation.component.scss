@@ -4,11 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.icon-title {
-  font-weight: 800;
-  font-size: 35px;
+  border-bottom: 3px solid #FF0073;
 }
 
 .menu {
@@ -33,13 +29,18 @@
   }
 }
 
-.icon {
+.logo-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-left: 142px;
 }
 
-img {
+.logo {
   margin-right: 11px;
+}
+
+.logo-title {
+  font-weight: 800;
+  font-size: 35px;
 }

@@ -1,13 +1,14 @@
 <app-navigation></app-navigation>
 <div class="main-container">
   <div>
-    <h1>Are you ready to<br/><b>lead the way</b></h1>
+    <h1 class="title">Are you ready to<br/><b>lead the way</b></h1>
     <p class="description">Mauris porta lectus nulla, non dignissim dolor sollicitudin et. Sed mi tortor, aliquam eget congue a, faucibus sed est.</p>
     <button>BUY NOW</button>
   </div>
   <div>
-    <img src="assets/images/3414.png" alt="">
-    <div class="dotted-line"></div>
+    <div>
+      <img class="shadow" src="assets/images/ellipse.png"></div>
+      <img class="main-article" src="assets/images/3414.png">
     <div class="secondary-container">
       <app-item [color]="'#FF0073'"
         class="item"
@@ -21,6 +22,7 @@
         [imgUrl]="'assets/images/Blue.png'"></app-item>
       <app-item [color]="'#ECDC47'"
         class="item"
+        [last]="true"
         (click)="selectItem(3)"
         [selected]="selectedItem === 3"
         [imgUrl]="'assets/images/Yellow.png'"></app-item>
