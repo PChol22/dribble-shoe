@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'shoe';
+  public selectedItem = 1;
+
+  public selectItem(x: number): void {
+    this.selectedItem = x;
+  }
 }

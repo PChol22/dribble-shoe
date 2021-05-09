@@ -1,0 +1,45 @@
+.container {
+  height: 125px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-title {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 94px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #707070;
+  cursor: pointer;
+
+  &.selected {
+    color: #FF0073;
+    font-weight: bold;
+  }
+
+  &:hover {
+    color: #FF0073;
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 142px;
+}
+
+img {
+  margin-right: 11px;
+}

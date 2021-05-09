@@ -1,0 +1,9 @@
+<div class="item-container" [ngStyle]="{ 'margin-right': selected ? '344px' : '80px'}">
+  <div class="dot" [ngStyle]="{ 'background-color': color }"></div>
+  <div class="content">
+    <div *ngIf="selected" class="detail">
+      <p>Mauris porta<br><b>$322.99</b></p>
+      </div>
+    <img [src]="imgUrl" alt="">
+  </div>
+</div>

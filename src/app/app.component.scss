@@ -1,0 +1,70 @@
+
+h1 {
+  font-weight: 100;
+  font-size: 70px;
+  margin-top: 142px;
+  margin-left: 142px;
+
+  b {
+    font-weight: 700;
+    font-size: 90px;
+  }
+}
+
+.description {
+  width: 541px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-left: 142px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF0073;
+  padding: 27px 76px 27px 76px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  border: 0;
+  box-shadow: 7px 12px 20px #0000000D;
+  margin-top: 108px;
+  margin-left: 142px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 7px 12px 20px #00000020;
+  }
+}
+
+img {
+  margin-right: 214px;
+  margin-top: 89px;
+}
+
+.dotted-line {
+  height: 0px;
+  width: 650px;
+  border-top: 6px dotted #FFFFFF;
+  position: absolute;
+  transform: translate(25px, 42px);
+  z-index: -1;
+}
+
+.item {
+  cursor: pointer;
+}
